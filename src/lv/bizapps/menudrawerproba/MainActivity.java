@@ -41,6 +41,8 @@ public class MainActivity extends ActionBarActivity {
 		b.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
+				Log.e("AAA", "Close drawer");
+
 				drawerLayout.closeDrawer(Gravity.LEFT);
 			}
 		});
